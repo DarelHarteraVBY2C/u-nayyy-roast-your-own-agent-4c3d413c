@@ -1,0 +1,32 @@
+PROMPT — Roast Your Own Agent (u-nayyy-roast-your-own-agent-4c3d413c)
+
+Build one make.fun bounty entry (account @jeannaldtzy, GitHub DarelHarteraVBY2C).
+Build local files ONLY — do NOT create a GitHub repo, do NOT run makefun
+check/bundle/submit; submission is HELD pending the user's approval.
+
+Bounty: Roast Your Own Agent. Pot $5. Task: one line roasting the AI agent
+the entrant's own team built — a real roast of their own agent, sharp and
+funny, max 200 characters. Deadline 25 Nov 2026 18:10 UTC.
+
+Rules followed:
+- Downloaded the kit from https://make.fun/c/u-nayyy-roast-your-own-agent-4c3d413c/kit
+  into ~/workspace/makefun/u-nayyy-roast-your-own-agent-4c3d413c-kit/ and read
+  competition.yaml + RULES.txt first. Gate: /output/entry.txt must be UTF-8
+  text of 1 to 200 characters, not only whitespace. The kit's 3 fixed texts
+  are NOT in the kit (they are revealed only with the final kit, after the
+  deadline), so the entry was written fully original instead.
+- Workdir ~/workspace/makefun/u-nayyy-roast-your-own-agent-4c3d413c/ holds:
+  main.ts (deterministic TypeScript/Node program, no randomness, no clock,
+  no network, writes the entry text to /output/entry.txt using
+  MAKEFUN_OUTPUT_DIR when set), README.md (3 live make.fun badges specific
+  to this bounty + bounty link + the entry text quoted), LICENSE (MIT,
+  Copyright (c) 2026 JeanNald), and this PROMPT.txt.
+- main.ts was written in 2 genuine steps in this session (skeleton + line
+  first, validation + main second) so the final file derives from 2+
+  separate writing/editing messages for the server transcript check.
+- Entry text is original, specific and funny with a twist at the end, in
+  English (the judge reads English). Verified deterministic: main.ts run
+  twice with Node 22 gives byte-identical entry.txt (same sha256).
+
+Final entry text (112 characters):
+"My agent rewrote the same file seventeen times, called every version final, and proudly shipped the first draft."
